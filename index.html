@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans"> <nav class="bg-gray-800 text-white fixed top-0 left-0 w-full z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between">
+      <div class="text-xl font-bold">My Portfolio</div>
+      <div class="space-x-4 hidden md:block">
+        <a href="#home" class="hover:text-gray-300">Home</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#projects" class="hover:text-gray-300">Projects</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </div>
+    </div>
+  </nav>  <section id="home" class="min-h-screen flex items-center justify-center flex-col text-center pt-20">
+  <img 
+  src="images/photo.jpg" alt="Your Name" class="w-48 h-48 rounded-full object-cover object-[center_60%] shadow-lg border-4 border-white"
+/>
+
+
+    <h1 class="text-4xl font-bold text-blue-900">Hi, I'm Pavithra</h1>
+    <p class="text-xl mt-2 text-pink-900">Web Developer | UI/UX Designer</p>
+    <p class="italic mt-2 text-blue-900">
+  "Code is like humor. When you have to explain it, it’s bad."
+</p>
+
+    <a href="resume.pdf" download class="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Download Resume</a>
+    <br><br>
+
+
+ <section id="about" class="bg-blue-200 py-16 px-16">
+  <div class="max-w-5xl mx-auto">
+ <h2 class="text-4xl font-bold text-center mb-10 text-blue-900">About Me</h2>
+
+    <div class="bg-white shadow-lg rounded-lg p-6 md:p-10">
+      <div class="mb-8">
+        <p class="mb-4 text-lg text-gray-700">
+          I'm a passionate web developer with a strong foundation in computer science. I specialize in building responsive, user-friendly websites and intuitive UIs using modern technologies.
+        </p>
+        <p class="text-lg text-gray-700">
+          With a commitment to continuous learning, I enjoy staying up to date with the latest web standards, tools, and design principles. My ultimate goal is to contribute to impactful digital experiences that solve real-world problems.
+        </p>
+      </div>
+
+      <div class="grid gap-8 md:grid-cols-3">
+     
+        <div>
+          <h3 class="text-xl font-semibold text-center mb-2 text-blue-900">Skills</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-700">
+            <li>HTML & CSS</li>
+            <li>Tailwind CSS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React (basic)</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-center mb-2 text-blue-900">Education</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-700">
+            <li>B.TECH Information Technology – University College of Engineering Nagercoil (2022–2026)</li>
+            <li>Web Dev Bootcamp – ABC Institute (2024)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-center mb-2 text-blue-900">Interests</h3>
+          <p class="text-gray-700">
+            Outside of coding, I enjoy exploring new tech trends, contributing to open-source projects, and learning about digital design and accessibility.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </section>  <section id="projects" class="py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold mb-10 text-center text-blue-900">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        
+        <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl hover:scale-105 transition-transform">
+          <img src="/images/blogy.png" alt="project" class="rounded mb-4">
+          <h3 class="font-bold text-xl mb-2 text-pink-900">BlogSite</h3>
+          <p class="mb-2">A responsive blog site built using HTML, Tailwind and JavaScript.</p>
+          <a href="#" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl hover:scale-105 transition-transform">
+          <img src="/images/CreativePortfolio.jpg" alt="project" class="rounded mb-4">
+          <h3 class="font-bold text-xl mb-2 text-pink-900">Showcase</h3>
+          <p class="mb-2">A portfolio website showcasing animation and smooth scrolling.</p>
+          <a href="#" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl hover:scale-105 transition-transform">
+          <img src="/images/contact.png" alt="project" class="rounded mb-4">
+          <h3 class="font-bold text-xl mb-2 text-pink-900">ContactForm</h3>
+          <p class="mb-2">A contact form with validation using vanilla JS and Tailwind UI.</p>
+          <a href="#" class="text-blue-600 hover:underline">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <section id="contact" class="bg-blue-100 py-16 px-4">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-center text-blue-900">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" class="w-full p-3 rounded border border-gray-300" required>
+        <input type="email" placeholder="Email" class="w-full p-3 rounded border border-gray-300" required>
+        <textarea placeholder="Message" rows="5" class="w-full p-3 rounded border border-gray-300" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Submit</button>
+      </form>
+      <div class="flex justify-center space-x-4 mt-6">
+        <i data-feather="github" class="w-6 h-6"></i>
+        <i data-feather="linkedin" class="w-6 h-6"></i>
+        <i data-feather="twitter" class="w-6 h-6"></i>
+      </div>
+    </div>
+  </section> <footer class="text-center py-4 bg-gray-800 text-white">
+    &copy; 2025 Pavithra. All rights reserved.
+  </footer> <script>
+    feather.replace();
+  </script></body>
+</html>
